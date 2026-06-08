@@ -1,10 +1,9 @@
 package Poo;
 
-public class Veiculo {
-    public class Veiculo {
+public class Aluno extends Pessoa {
         private String marca;
         private int ano;
-        public Veiculo(String marca, int ano) {
+        public Aluno(String marca, int ano) {
             this.marca = marca;
             this.ano = ano;
         }
@@ -13,4 +12,4 @@ public class Veiculo {
         }
     }
 
-}
+
