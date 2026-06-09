@@ -1,6 +1,6 @@
 package Poo;
 
-    public class Cachorro extends Animal {
+    public class Cachorro extends Funcionario {
     public Cachorro(String nome) {
         super(nome);
     }
