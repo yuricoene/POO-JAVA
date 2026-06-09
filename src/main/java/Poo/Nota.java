@@ -1,6 +1,6 @@
 package Poo;
 
-public class ContaPoupanca extends Conta {
+public class ContaPoupanca extends Imprimivel {
     @Override
     public void sacar(double valor) {
         if (valor <= saldo) saldo -= valor;
